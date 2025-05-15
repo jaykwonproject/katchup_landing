@@ -1,37 +1,38 @@
 // src/components/Features.js
 export default function Features() {
-const features = [
+  const features = [
   {
-    title: "No Algorithm. Just Habit.",
-    description: "Katchup encourages check-ins with the people that matter — no feeds, no noise, just a simple rhythm to stay close.",
-    icon: "🔁"
+    title: "No Algorithm. No Noise.",
+    description: "Everyone sees everything — no ranking, no feeds, no pressure to perform. Katchup is built for real connection, not engagement metrics.",
+    icon: "🧠"
   },
   {
-    title: "Private by Default",
-    description: "Your posts stay within your circle. No public profiles, no followers. Just a safe space to share.",
-    icon: "🔒"
+    title: "Room-Based, Not Feed-Based",
+    description: "Each post lives in a private room with your chosen circle — no followers, no strangers, no performative pressure.",
+    icon: "🚪"
   },
   {
-    title: "For Your Inner Circle",
-    description: "Built for close friends, not followers. Katchup makes staying in touch feel less like a task — and more like a ritual.",
-    icon: "🫶"
+    title: "One Post a Day, From Everyone",
+    description: "Like a group ritual — everyone shares once a day. It's low-effort, high-meaning, and helps you actually stay in sync.",
+    icon: "📅"
   },
   {
-    title: "Low Effort, High Meaning",
-    description: "Unfiltered photos. Short updates. No need to impress — just a way to show you’re still here.",
-    icon: "📸"
-  },
-  {
-    title: "Keep the Streak Alive",
-    description: "A gentle nudge, not a guilt trip. Posting regularly helps everyone stay in sync — and you’ll actually want to do it.",
+    title: "Keep the Streak. Keep the Bond.",
+    description: "Posting daily builds momentum — together. It’s not about pressure, but presence. You’ll want to keep it going.",
     icon: "🔥"
   },
   {
     title: "Not Another Group Chat",
-    description: "No endless scroll. No one-liner replies. Just one post a day to keep everyone caught up.",
+    description: "No walls of one-liner replies. No chaos. Just intentional sharing that respects your time and attention.",
     icon: "💬"
+  },
+  {
+    title: "Private. Casual. Yours.",
+    description: "No public profiles. Katchup is your private space to share life as it really is — unfiltered.",
+    icon: "🔒"
   }
 ];
+
 
 
 
@@ -41,7 +42,7 @@ const features = [
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 text-center">
           Why Choose Katchup?
         </h2>
-        
+
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-gray-50 p-6 md:p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">

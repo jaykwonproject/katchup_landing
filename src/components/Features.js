@@ -1,22 +1,39 @@
 // src/components/Features.js
 export default function Features() {
-  const features = [
-    {
-      title: "Real-time Updates",
-      description: "Stay in sync with your contacts through instant notifications and updates.",
-      icon: "🚀"
-    },
-    {
-      title: "Simple Interface",
-      description: "Clean, intuitive design makes keeping in touch easier than ever.",
-      icon: "✨"
-    },
-    {
-      title: "Cross-Platform",
-      description: "Available on iOS, Android, and web so you can connect from anywhere.",
-      icon: "📱"
-    }
-  ];
+const features = [
+  {
+    title: "No Algorithm. Just Habit.",
+    description: "Katchup encourages check-ins with the people that matter — no feeds, no noise, just a simple rhythm to stay close.",
+    icon: "🔁"
+  },
+  {
+    title: "Private by Default",
+    description: "Your posts stay within your circle. No public profiles, no followers. Just a safe space to share.",
+    icon: "🔒"
+  },
+  {
+    title: "For Your Inner Circle",
+    description: "Built for close friends, not followers. Katchup makes staying in touch feel less like a task — and more like a ritual.",
+    icon: "🫶"
+  },
+  {
+    title: "Low Effort, High Meaning",
+    description: "Unfiltered photos. Short updates. No need to impress — just a way to show you’re still here.",
+    icon: "📸"
+  },
+  {
+    title: "Keep the Streak Alive",
+    description: "A gentle nudge, not a guilt trip. Posting regularly helps everyone stay in sync — and you’ll actually want to do it.",
+    icon: "🔥"
+  },
+  {
+    title: "Not Another Group Chat",
+    description: "No endless scroll. No one-liner replies. Just one post a day to keep everyone caught up.",
+    icon: "💬"
+  }
+];
+
+
 
   return (
     <section id="features" className="py-12 md:py-16 lg:py-24 bg-white">

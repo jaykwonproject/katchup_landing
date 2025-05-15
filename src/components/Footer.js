@@ -24,12 +24,12 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-gray-400 text-sm md:text-base">
-              Have questions? Reach out to us at <a href="mailto:hello@katchup.app" className="text-katchup-red hover:underline">hello@katchup.app</a>
+              Have questions? Reach out to us at <a href="mailto:katchupcontact@gmail.com" className="text-katchup-red hover:underline">katchupcontact@gmail.com</a>
             </p>
             <div className="mt-4 flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white text-sm md:text-base">Twitter</a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm md:text-base">X</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm md:text-base">Instagram</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm md:text-base">LinkedIn</a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm md:text-base">Facebook</a>
             </div>
           </div>
         </div>
